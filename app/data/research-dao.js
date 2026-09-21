@@ -9,7 +9,7 @@ function ResearchDAO(db) {
         console.log("Warning: ResearchDAO constructor called without 'new' operator");
         return new ResearchDAO(db);
     }
-
+/* wonder if this will work*/
     this.getBySymbol = (symbol, callback) => {
 
         const searchCriteria = () => {
