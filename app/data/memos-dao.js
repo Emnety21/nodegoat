@@ -37,4 +37,6 @@ function MemosDAO(db) {
 
 }
 
+
+/* report memos dao export*/
 module.exports = { MemosDAO };
